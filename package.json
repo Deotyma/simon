@@ -1,0 +1,25 @@
+{
+  "name": "simon",
+  "version": "1.0.0",
+  "description": "jeu du simon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deotyma/simon.git"
+  },
+  "keywords": [
+    "jeu"
+  ],
+  "author": "Ewa Kadziolka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deotyma/simon/issues"
+  },
+  "homepage": "https://github.com/Deotyma/simon#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}

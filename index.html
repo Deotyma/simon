@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jeu du simon</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <button @click="newGame">
+        NOUVELLE PARTIE
+      </button>
+        <hr>
+        <h4>{{score}}</h4>
+        <hr>
+        <div>
+            <span @click="selectSquare('hautGauche')" :class="{bleu: hautGauche}" class="carre"></span>
+            <span @click="selectSquare('hautDroite')" :class="{rouge: hautDroite}" class="carre"></span>
+        </div>
+        <div>
+            <span @click="selectSquare('basGauche')" :class="{vert: basGauche}" class="carre"></span>
+            <span @click="selectSquare('basDroite')" :class="{jaune: basDroite}" class="carre"></span>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
